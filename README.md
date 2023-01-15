@@ -3,7 +3,7 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -> Process Flow: 
 You will be provided with hourly renting data span of two years. Data is randomly divided into train and test set. You must predict the total count of cabs booked in each hour covered by the test set, using the information available prior to the booking period. You need to append the train_label dataset to train.csv as ‘Total_booking’ column.
-=======================================================================================================================================================================
+
 -> Dataset Description: 
 o datetime - hourly date + timestamp 
 o season - spring, summer, autumn, winter
