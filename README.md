@@ -6,15 +6,15 @@ Cab booking system is the process where renting a cab is automated through an ap
 You will be provided with hourly renting data span of two years. Data is randomly divided into train and test set. You must predict the total count of cabs booked in each hour covered by the test set, using the information available prior to the booking period. You need to append the train_label dataset to train.csv as ‘Total_booking’ column.
 
 # Dataset Description: 
-. datetime - hourly date + timestamp 
-. season - spring, summer, autumn, winter
-. holiday - whether the day is considered a holiday
-. workingday - whether the day is neither a weekend nor holiday
-. weather - Clear , Cloudy, Light Rain, Heavy temp - temperature in Celsius
-. atemp - "feels like" temperature in Celsius
-. humidity - relative humidity
-. windspeed - wind speed
-. Total_booking - number of total booking
+1. datetime - hourly date + timestamp.
+2. season - spring, summer, autumn, winter.
+3. holiday - whether the day is considered a holiday.
+4. workingday - whether the day is neither a weekend nor holiday.
+5. weather - Clear , Cloudy, Light Rain, Heavy temp - temperature in Celsius.
+6. atemp - "feels like" temperature in Celsius.
+7. humidity - relative humidity.
+8. windspeed - wind speed.
+9. Total_booking - number of total booking.
 
 # Tasks to be done: 
 1. Import the required libraries and load the training and testing dataset.
